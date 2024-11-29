@@ -60,7 +60,7 @@ Fornecer uma solução completa para administração de reservas de hotel, com f
       ```
 
 4. **Acesso à aplicação**:
-    - O backend estará disponível em: `http://localhost:3306`.
+    - O backend estará disponível em: `http://localhost:4040`.
     - O frontend estará disponível em: `http://localhost:3000`.
 
 ---
