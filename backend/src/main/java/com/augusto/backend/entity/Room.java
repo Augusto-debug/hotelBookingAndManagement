@@ -18,6 +18,7 @@ public class Room {
     private BigDecimal roomPrice;
     private String roomPhotoUrl;
     private String roomDescription;
+    //Possivel erro. Verificar se o mappedBy está correto.
     @OneToMany(mappedBy = "room", fetch = FetchType.LAZY)
     private List<Booking> bookings = new ArrayList<>();
 
