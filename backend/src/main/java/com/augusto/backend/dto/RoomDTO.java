@@ -1,6 +1,5 @@
 package com.augusto.backend.dto;
 
-import com.augusto.backend.entity.Booking;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
@@ -15,5 +14,5 @@ public class RoomDTO {
     private String roomPrice;
     private String roomPhotoUrl;
     private String roomDescription;
-    private List<Booking> bookings = new ArrayList<>();
+    private List<BookingDTO> bookings = new ArrayList<>();
 }
